@@ -37,7 +37,6 @@ print(y)
 x = input("Enter comma-separated numbers: ").split(',')
 
 # What do you need between the square brackets to make it work?
-y = []
  
 """ int type conversion is used because when you use input, the result is a string. 
     In order to do arithmetic on the input value, you need to convert it to integer or float """

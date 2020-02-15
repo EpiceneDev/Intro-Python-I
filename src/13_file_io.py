@@ -9,7 +9,7 @@ https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files
 # Print all the contents of the file, then close the file
 # Note: pay close attention to your current directory when trying to open "foo.txt"
 
-f = open("C:/Users/Tishay/desktop/lambda/git/Python/Intro-Python-I/src/foo.txt", "r")
+f = open("/Users/grandpoobah/Documents/CS/pythonproj/Intro-Python-I/src/foo.txt", "r")
 
 print (f.read())
 
