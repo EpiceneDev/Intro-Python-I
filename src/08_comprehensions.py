@@ -42,3 +42,33 @@ x = input("Enter comma-separated numbers: ").split(',')
     In order to do arithmetic on the input value, you need to convert it to integer or float """
 y = [i for i in x if int(i) % 2 == 0]
 print(y)
+
+'''
+from second part of lecture with Tim Roy https://www.youtube.com/watch?v=gLnJg2P4UCg&feature=youtu.be:
+
+'''
+
+# for (idx, el) in enumerate(my_list):
+#     print(idx, el)
+
+# numbers = [1, 2, 3, 4, 5]
+
+# squares = [num*num for num in numbers]
+
+# or 
+
+# squares = []
+
+
+# for num in numbers:
+#     squares.append(num * num)
+
+# print(squares)
+
+# --------------------------------------
+
+#halves = [num // 2 for num in numbers] <== // rounds down
+# print(halves)
+
+# evens = [num for num in numbers if num%2 == 0]
+# print(evens)
