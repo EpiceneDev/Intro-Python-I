@@ -72,3 +72,24 @@ from second part of lecture with Tim Roy https://www.youtube.com/watch?v=gLnJg2P
 
 # evens = [num for num in numbers if num%2 == 0]
 # print(evens)
+
+# names = ["sam", "shelly", "steve", "bob"]
+# get all names that start with 's' and capitalize them
+# s_names = [name.capitalize() for name in names if name.startswith('s')] # prefered to use built-in method
+#  or 
+# b_names = [name[0].upper() + name[1:] for name in names if name.startswith('b')]
+# print(b_names)
+
+#OR
+
+# b_name = []
+
+# for name in names:
+#     if name.startswith('b'):
+#         b_name = name[0].upper() + name[1:]
+#         b_names.append(b_name)
+
+# Program to demo conditional operator (terinary in python3)
+# a, b = 10, 20
+# min = a if a< b else b
+# print(min)
