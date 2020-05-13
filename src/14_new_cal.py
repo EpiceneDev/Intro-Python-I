@@ -20,4 +20,21 @@ elif len(sys.argv) == 2:
     calendar.prmonth(today.year, int(sys.argv[1]))
 
 elif len(sys.argv) == 3:
-    calendar.prmonth(int(sys.argv[1]), int(sys.argv[2]))
+    calendar.prmonth(int(sys.argv[2]), int(sys.argv[1]))
+
+else:
+  print("usage: filename month year")
+  sys.exit(1)
+
+# def parent(args):
+#     script_name, *args = sys.argv
+#     if not args:
+#         rend_cal()
+#     elif len(args) == 1:
+#         month = int(args[0])
+#         rend_cal(month)
+#     elif len(args) == 2:
+#         month, year = map(int, args)
+#         rend_cal(month, year)
+#     else:
+#         print(utilization())
